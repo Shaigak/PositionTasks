@@ -1,0 +1,124 @@
+body{
+    background-color: #B5B3B3;
+}
+
+.background{
+    width: 300px;
+    height: 480px;
+    background-color: #42515A;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    position: relative  ;
+   
+}
+
+.write{
+    position: absolute;
+    color: #C74385;
+    margin-top: 200px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.write h3{
+
+    color: #C74385
+    
+}
+
+.write h3:nth-child(2){
+    color: #BCBBBB
+}
+
+.write h4:nth-child(3){
+    color: whitesmoke;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+
+
+.icon{
+    position: absolute;
+    width: 151px;
+    height: 150px;
+    background-color: rgb(248, 239, 239);
+    z-index: 1;
+    border-radius : 80px ;
+    border: 7px solid #C74385; 
+}
+
+.people{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 80px;
+    /* background-color: aliceblue; */
+    
+}
+
+.twit{
+    display: flex;
+    margin-left: 10px;
+    font-size: 40px;
+    height: 32px;
+    
+    
+}
+
+.youtube{
+    margin-left: 30px;
+    background-color: aliceblue;
+}
+
+.link{
+    margin-left: 30px;
+    background-color: aliceblue;
+}
+
+.icons i{
+    margin-left: 20px;
+    font-size: 28px;
+    background-color: #C74385;
+    width: 36px;
+    height: 32px;
+    
+    color: white;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+.icons{
+    margin-right: 30px;
+    height: 32px;
+}
+
+.down{
+    width: 300px;
+    height: 60px;
+    background-color: #C74385;
+    margin-top: 75px;
+    margin-left: 10px;
+    /* margin-right: -1px; */
+    border-radius: 12px;
+}
+.down span {
+    height: 200px;
+    color: white;
+    margin-top: 40px;
+    font-size: 19px;
+}
+
+.icons i:nth-child(4){
+    height: 32px;
+}
+
+
+

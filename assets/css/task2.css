@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5E5E5E;
+}
+
+.banner{
+    width: 250px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+}
+
+
+.alldiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+
+.banner .img{
+  height: 180px;
+}
+.banner .img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.alldiv .write{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.alldiv .write2{
+    padding: 20px;
+    text-align: center;
+}
+
+.alldiv .write2 p:nth-child(1){
+    color: #CC6046
+}
+
+.alldiv .write2 p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.alldiv .write2 p:nth-child(3){
+    font-size: 18px;
+    color: #989992;
+}
+
+
+.alldiv .write p:nth-child(1){
+    color: #CF5684
+}
+
+.alldiv .write p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.alldiv .write p:nth-child(3){
+    font-size: 18px;
+    color: #989992;
+}
+
+.alldiv .write3{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.alldiv .write3{
+    padding: 20px;
+    text-align: center;
+}
+
+.alldiv .write3 p:nth-child(1){
+    color: #04B43F;
+    
+}
+
+.alldiv .write3 p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.alldiv .write3 p:nth-child(3){
+    font-size: 18px;
+    color: #989992;
+}
+
+
+
+/* .downban{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 10px;
+    background-color: #06B33F;      
+} */
+
+ .border1{
+    width: 1px;
+    height: 100%;
+    background-color: #030303;
+   
+    opacity: 0.2;
+}
+    
+ 
+
+.downban{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    background-color: #CF5684;
+    height: 50px;
+    text-align: center;
+}
+
+.downban p{
+    width: 50px; 
+    
+    color: white;
+}
+
+
+ .banner.write p:nth-child(1){
+    color: red;
+}
+
+.downban2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    background-color: #FF500B;
+    height: 50px;
+    text-align: center;
+
+}
+
+.downban2 p{
+    width: 50px; 
+    
+    color: white;
+}
+
+.downban3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    background-color: #04B43F;
+    height: 50px;
+    text-align: center;
+}
+
+.downban p{
+    width: 50px; 
+    
+    color: white;
+}
+
